@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica</title>
+    <!--  CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container text-center py-5">
+      <h1 id="titulo" class="display-4 py-5">Hello Word</h1>
+      <input
+        id="color"
+        type="text"
+        class="form-control my-3"
+        placeholder="Ingresa"
+      />
+      <br />
+      <button id="boton" class="btn btn-danger">Cambiate</button>
+    </div>
+
+    <script>
+      document.getElementById("boton").onclick = function () {
+        var color = document.getElementById("color").value;
+
+        if (color == "Josue") {
+          document.getElementById("titulo").classList.add("text-danger");
+        } else if (color == "Daniel") {
+          document.getElementById("titulo").classList.add("text-primary");
+        } else {
+          document.getElementById("titulo").classList.add("text-warning");
+        }
+      };
+    </script>
+  </body>
+</html>

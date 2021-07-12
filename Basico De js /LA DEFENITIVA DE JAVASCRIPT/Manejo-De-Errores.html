@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errores</title>
+</head>
+<body>
+    <input type="button" onclick="Josue()" value="ok">
+    <script>
+      function Josue(){
+          try
+          {
+              var a = Number(prompt('INTRODUCE UN NUMERO'));
+              var b = Number(prompt('INTRODUCE UN NUMERO'));
+              if (isNaN(a) || isNaN(b)) 
+              {
+                  throw ' EL RESULTADO ';
+              }  
+              alert('El Resultado Es:' + (a+b) ) 
+          }
+           catch(error)
+          {
+            alert(error +  'Error')
+          }
+      }
+
+    </script>
+</body>
+</html>

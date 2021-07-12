@@ -1,0 +1,12 @@
+*{
+      font-family: cursive ;
+      text-align: center;
+}
+
+.Btn{
+    width: 10%;
+    color: white;
+    background: rgb(119, 117, 117);
+    border: 1px solid black;
+    cursor: pointer;
+}

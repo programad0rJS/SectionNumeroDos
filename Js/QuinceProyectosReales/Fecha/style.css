@@ -1,0 +1,24 @@
+
+.Fecha {
+
+    text-align: center;
+    font-size: 102px;
+    font-style: italic;
+    color: red;
+    text-decoration: underline black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    font-variant: small-caps;
+    font-weight:100 900;
+    text-transform: uppercase;
+    margin-bottom: 123px;
+
+  
+}
+.Fecha:hover{
+    color: rebeccapurple;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 210px
+
+}

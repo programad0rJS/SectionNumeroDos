@@ -1,0 +1,21 @@
+"FELICIDADES HAS LLEGADO HACIA AQUI TE FELICITO ES MUCHO TRABAJO "
+# FELICIDADES COMENCEMOS
+
+" a = 3 b = 3 print( a + b) "
+#  es COMENTARIO " soy un comentario  "
+# es una suma  
+
+# y lo ejecutas 
+"Listo"
+
+#POLIMORFISMO EN PYTHON  
+
+# CREO QUE SOM CLASES
+
+
+
+#  while True print('HELLO WORD')  MANEJA LOS ERRORES ASI ENTENDI 
+# BUENO FIN 
+
+
+"EL SIQUIENTE EPISODIO "
